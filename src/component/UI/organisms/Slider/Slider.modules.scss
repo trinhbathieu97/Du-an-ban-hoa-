@@ -1,0 +1,121 @@
+.Slider_item{
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+
+.Slider{
+   
+    position: relative;
+
+    .Slider_list{
+        position: absolute;
+        display: flex;
+        top: -70px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        .Slider_item_Next{
+            display: flex;
+            gap: 20px;
+        }
+
+        .Slider_New{
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 500;
+        }
+    }
+
+    .swiper{
+        position: unset;
+        
+        .swiper-button-next{
+            right: 0;
+            top: -57px;
+            color: aqua;
+            opacity: 0;
+        }
+        .swiper-button-prev{
+            left: auto;
+            right: 40px;
+            top: -58px;
+            opacity: 0;
+        }
+
+        .product{
+            text-decoration: none;
+            .slider_list-img{
+                position: relative;
+                background-color: #f8f8f8;
+                text-align: center;
+                .slider_img{
+                    width: 100%;
+                    
+                    
+                }
+                .cart_seachr{
+                    position: absolute;
+                    bottom: 10px;
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    gap: 35px;
+                     .cart {
+                        &:hover{
+                            opacity: 0.6;
+                        }
+
+                    }
+
+                     .a{
+                         &:hover{
+                            opacity: 0.6;
+                         }
+                        
+                    }
+                }
+            }
+           
+            .introduce{
+                text-align: center;
+                color: black;
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 500;
+                    color: #000;
+                    
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 500;
+                    .sale{
+                        margin-left: 16px;
+                        color: #82828b;
+                        position: relative;
+                        &::after{
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 2px;
+                            background-color: #82828b;
+                            content: "";
+                           
+                        }
+                    }
+                }
+            }
+            
+        }
+
+       
+       
+    }
+}
+

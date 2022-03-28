@@ -1,0 +1,110 @@
+
+.Home{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Home_banner_1{
+    width: 100%;
+    max-height: 220px;
+    // margin-left: auto;
+    // margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 16px;
+    padding-top: 20px;
+
+    .banner{
+        background-image: url("../../../ImgApp/imgban.jpg");
+        width: 100%;
+        height: 220px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+      a{
+            text-decoration: none;
+            
+       }
+    .banner_list{
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        .banner_off{
+            font-family: Roboto;
+            font-size: 1.75em;
+            font-weight: 500;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+        .banner_text{
+            font-size: 1.125em;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        .banner_button{
+            width: fit-content;
+            background-color: #000;
+            padding: 12px 22px;
+            color: #fff;
+            display: flex;
+            gap: 10px;
+            border-radius: 7px;
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+        
+    }
+   
+    }
+
+}
+
+.Home_banner_2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 70px;
+
+    .banner_list_2{
+        // background-image: url("../../../ImgApp/banner_img_2.jfif");
+        width: calc(50% - 20px);
+        height: 220px;
+        background-size: cover;
+        position: relative;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        .banner_list_item_2{
+            position: absolute;
+            top: 20%;
+            left: 48%;
+
+            .banner_list-text{
+                font-family: Roboto;
+                font-size: 1.75em;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            .banner_button_2{
+                width: fit-content;
+                display: flex;
+                gap: 10px;
+                img{
+                    color: #000;
+                }
+                &:hover{
+                    opacity: 0.6;
+                }
+            }
+        }
+       
+    }
+}

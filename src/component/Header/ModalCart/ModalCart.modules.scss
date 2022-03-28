@@ -1,0 +1,95 @@
+.ModalCart {
+  position: absolute;
+  width: 544px;
+  top: 30px;
+  right: 0;
+  padding: 0 60px;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 33;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 5px;
+
+  .ModalCart_cart {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    margin: 40px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+  }
+  .Cart_product {
+    display: flex;
+    gap: 20px;
+    .cart_img {
+      width: 25%;
+      img {
+        width: 100%;
+      }
+    }
+    .cart_price {
+      display: flex;
+      gap: 10px;
+    }
+    .cart_number {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+      .cart_up-dow {
+        display: flex;
+        gap: 20px;
+        .cart_up {
+          width: 25px;
+          height: 25px;
+          border-radius: 30px;
+          border: none;
+          background: #91def0;
+        }
+      }
+    }
+  }
+
+  .discount_code {
+    margin-top: 20px;
+    input {
+      height: 30px;
+      width: 60%;
+      margin-right: 20px;
+    }
+    button {
+      height: 34px;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 500;
+      width: 30%;
+      background: #fff;
+      border: 1px solid;
+      border-color: #142bdc;
+      border-radius: 5px;
+    }
+  }
+  .cart_Free {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid;
+    padding: 10px;
+  }
+  .cart_checkout {
+    text-align: center;
+    button {
+      padding: 15px 50px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  }
+  .remove_all {
+    margin-top: 20px;
+    color: #2d85eb;
+  }
+}

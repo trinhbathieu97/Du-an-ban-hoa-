@@ -1,0 +1,36 @@
+.navbarPage_list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  border-color: #ccc;
+  .navbar_list {
+    display: flex;
+    gap: 50px;
+    .navbar_list-sort {
+      display: flex;
+      gap: 10px;
+      position: relative;
+      img {
+        margin-left: 10px;
+      }
+
+      .list_sort-type {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        border-radius: 7px;
+        z-index: 2222;
+
+        span {
+          padding: 7px 25px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

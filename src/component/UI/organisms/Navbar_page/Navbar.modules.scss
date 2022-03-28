@@ -1,0 +1,34 @@
+.navbar_abuot{
+    width: 100%;
+    height: 52px;
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    .hoverHome{
+        &:hover{
+            text-decoration: revert;
+            
+            
+        }
+    }
+    span{
+        font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .nabar_text{
+        font-weight: 600;  
+    }
+}
+
+.about_title{
+    margin-top: 20px;
+    margin-bottom: 40px;font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+}
+

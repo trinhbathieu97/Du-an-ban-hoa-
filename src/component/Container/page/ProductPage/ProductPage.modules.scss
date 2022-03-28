@@ -1,0 +1,106 @@
+.ProductPage {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  .ProductPage_list {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+    .product {
+      text-decoration: none;
+      width: calc(25% - 20px);
+
+      .slider_list-img {
+        position: relative;
+        background-color: #f8f8f8;
+        text-align: center;
+        .slider_img {
+          width: 100%;
+        }
+        .cart_seachr {
+          position: absolute;
+          bottom: 10px;
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          gap: 35px;
+          .cart {
+            position: relative;
+            &:hover {
+              opacity: 0.6;
+            }
+            p {
+              position: absolute;
+              top: 0;
+              right: 0;
+              font-size: 10px;
+              height: 17px;
+              width: 17px;
+              background-color: aquamarine;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+
+          .a {
+            &:hover {
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+
+      .introduce {
+        text-align: center;
+        color: black;
+        margin-top: 20px;
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 22px;
+          font-weight: 500;
+          color: #000;
+        }
+        p {
+          font-size: 14px;
+          line-height: 17px;
+          font-weight: 500;
+          .sale {
+            margin-left: 16px;
+            color: #82828b;
+            position: relative;
+            &::after {
+              position: absolute;
+              top: 50%;
+              right: 0;
+              left: 0;
+              width: 100%;
+              height: 2px;
+              background-color: #82828b;
+              content: "";
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ProductPage_SeeMore {
+    text-align: center;
+    span {
+      display: inline-block;
+      width: 223px;
+      height: 46px;
+      line-height: 46px;
+      background-color: #000;
+      border-radius: 4px;
+      color: #fff;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
